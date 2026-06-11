@@ -94,7 +94,7 @@ export default function Footer() {
         {/* Bottom Bar: Copyright */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-xs">
-            © {currentYear} <span className="text-white">Kamlesh Kumar</span>. All rights reserved. 
+            © {currentYear} <span className="text-white">Damini Tomer</span>. All rights reserved. 
             Built with React & Intelligence.
           </p>
           <div className="flex items-center gap-2 text-[10px] text-gray-600 font-mono uppercase tracking-[0.2em]">

@@ -12,7 +12,7 @@ const socialLinks = [
   },
   {
     name: "LinkedIn",
-    handle: "Kamlesh Kumar",
+    handle: "Damini Tomer",
     icon: <Linkedin className="w-6 h-6" />,
     link: "https://www.linkedin.com/in/kamlesh-k-bb9705247",
     color: "hover:text-[#0077b5]",

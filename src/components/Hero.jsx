@@ -69,7 +69,7 @@ export default function Hero() {
 
         {/* Dynamic Subtitle */}
         <motion.p className="mt-6 sm:mt-8 max-w-2xl mx-auto text-gray-400 text-xs sm:text-sm md:text-lg lg:text-xl font-light leading-relaxed px-2">
-          I'm <span className="text-white font-medium">Kamlesh Kumar</span>. I bridge the gap between complex 
+          I'm <span className="text-white font-medium">Damini Tomer</span>. I bridge the gap between complex 
           mathematical models and scalable web architectures, specializing in 
           <span className="text-[#BAA0F8] font-mono inline-block ml-1 underline underline-offset-4 decoration-[#BAA0F8]/30">
              production-grade ML.

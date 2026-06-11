@@ -51,7 +51,7 @@ export default function About() {
                 <span className="text-blue-400">engineer</span> = {"{"}
               </p>
               <div className="pl-6 space-y-2">
-                <p className="text-white">name: <span className="text-orange-300">"Kamlesh Kumar"</span>,</p>
+                <p className="text-white">name: <span className="text-orange-300">"Damini Tomer"</span>,</p>
                 <p className="text-white">role: <span className="text-orange-300">"AI/ML Specialist"</span>,</p>
                 <p className="text-white">location: <span className="text-orange-300">"Noida, IN"</span>,</p>
                 <p className="text-white">specialization: [</p>
