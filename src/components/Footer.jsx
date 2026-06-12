@@ -72,7 +72,7 @@ export default function Footer() {
             <div className="bg-gradient-to-r from-pink-400/5 to-purple-400/5 border border-pink-300/20 rounded-xl p-4">
               <div className="flex items-center justify-between mb-2">
                 <span className="text-[10px] text-gray-500 font-mono">LOCATION</span>
-                <span className="text-[10px] text-pink-400 font-mono">NOIDA_IN</span>
+                <span className="text-[10px] text-pink-400 font-mono">Ghaziabad_IN</span>
               </div>
               <div className="flex items-center justify-between mb-4">
                 <span className="text-[10px] text-gray-500 font-mono">LEARNING_STATUS</span>

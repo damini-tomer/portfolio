@@ -44,7 +44,7 @@ export default function SocialSection() {
               Let's <span className="bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">Connect</span>
             </h2>
             <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-              Based in <span className="text-white">Noida, India</span>. 
+              Based in <span className="text-white">Ghaziabad, India</span>. 
               I am always open to discussing scalable AI architectures, 
               Generative AI research, or production-grade ML systems.
             </p>
@@ -62,8 +62,8 @@ export default function SocialSection() {
 
               {/* ENHANCED RESUME DOWNLOAD BUTTON */}
               <motion.a
-                href="/resume.pdf"
-                download="Damin_Tomer_AI_ML_Engineer.pdf"
+                href="/Damini_Tomar_Resume.pdf"
+                download="Damini_Tomer_AI_ML_Student.pdf"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="group relative flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-pink-400/10 to-purple-400/10 border border-pink-400/40 rounded-2xl overflow-hidden transition-all duration-300 hover:border-pink-400/80 hover:bg-pink-400/20 hover:shadow-lg hover:shadow-pink-400/20"
