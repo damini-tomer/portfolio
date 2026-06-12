@@ -29,7 +29,7 @@ const skillCategories = [
     skills: [
       "Docker", "CI/CD Pipelines", "Model Monitoring", 
       "Anomaly Detection Systems", "API Testing (Postman)", 
-      "Git/GitHub", "Threat Detection (IPRanker)"
+      "Git/GitHub", "Threat Detection"
     ],
     color: "from-emerald-500/20 to-transparent",
     icon: "🚀"
