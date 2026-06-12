@@ -7,7 +7,7 @@ function App() {
   const location = useLocation();
 
   return (
-    <div className='relative w-full min-h-screen bg-[#0a0a0b] text-white selection:bg-[#BAA0F8]/30 selection:text-[#BAA0F8]'>
+    <div className='relative w-full min-h-screen bg-[#0a0a0b] text-white selection:bg-pink-400/30 selection:text-pink-400'>
       
       {/* 1. Global Neural Background Layer */}
       <div className="fixed inset-0 z-0 pointer-events-none">

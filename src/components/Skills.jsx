@@ -47,7 +47,7 @@ export default function SkillsSection() {
           className="mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Technical <span className="text-[#BAA0F8]">Stack</span>
+            Technical <span className="bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">Stack</span>
           </h2>
           <p className="text-gray-400 max-w-xl">
             Bridging the gap between complex mathematical models and production-ready web applications.
@@ -62,7 +62,7 @@ export default function SkillsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
               whileHover={{ y: -10, transition: { duration: 0.2 } }}
-              className={`p-8 rounded-3xl bg-gradient-to-br ${cat.color} border border-white/10 backdrop-blur-xl hover:border-[#BAA0F8]/30 transition-all`}
+              className={`p-8 rounded-3xl bg-gradient-to-br ${cat.color} border border-pink-300/20 backdrop-blur-xl hover:border-pink-300/50 transition-all`}
             >
               <div className="text-3xl mb-4">{cat.icon}</div>
               <h3 className="text-xl font-bold text-white mb-2">{cat.title}</h3>
@@ -72,7 +72,7 @@ export default function SkillsSection() {
                 {cat.skills.map((skill) => (
                   <span 
                     key={skill} 
-                    className="px-3 py-1.5 bg-white/5 border border-white/10 rounded-lg text-xs font-mono text-gray-300 hover:text-[#BAA0F8] hover:border-[#BAA0F8]/50 transition-colors"
+                    className="px-3 py-1.5 bg-gradient-to-r from-pink-400/10 to-purple-400/10 border border-pink-300/30 rounded-lg text-xs font-mono text-pink-200 hover:text-pink-100 hover:border-pink-400/60 transition-colors"
                   >
                     {skill}
                   </span>

@@ -36,10 +36,10 @@ export default function Hero() {
         style={{
           background: useTransform(
             [dx, dy],
-            ([x, y]) => `radial-gradient(600px circle at ${x}px ${y}px, rgba(186, 160, 248, 0.15), transparent 80%)`
-          ),
-        }}
-      />
+              ([x, y]) => `radial-gradient(600px circle at ${x}px ${y}px, rgba(255, 105, 180, 0.12), rgba(186, 160, 248, 0.12), transparent 80%)`
+            ),
+          }}
+        />
 
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 text-center">
         {/* Intro Badge with Pulse */}
@@ -49,10 +49,10 @@ export default function Hero() {
           className="inline-flex items-center gap-2 mb-8 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md"
         >
           <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#BAA0F8] opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-[#BAA0F8]"></span>
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-pink-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-pink-400"></span>
           </span>
-          <span className="text-[#BAA0F8] text-xs font-mono uppercase tracking-widest">System Online: v2.0.4</span>
+          <span className="text-pink-400 text-xs font-mono uppercase tracking-widest">System Online: v2.0.4</span>
         </motion.div>
 
         {/* Main Heading with Layout Projection */}
@@ -61,19 +61,19 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white tracking-tighter leading-tight"
         >
-          Architecting <br className="hidden sm:block" />
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#BAA0F8] via-white to-[#BAA0F8] animate-gradient-x">
-            Autonomous Logic
+          Building <br className="hidden sm:block" />
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-300 via-purple-300 to-pink-300 animate-gradient-x">
+            AI Solutions
           </span>
         </motion.h1>
 
         {/* Dynamic Subtitle */}
         <motion.p className="mt-6 sm:mt-8 max-w-2xl mx-auto text-gray-400 text-xs sm:text-sm md:text-lg lg:text-xl font-light leading-relaxed px-2">
-          I'm <span className="text-white font-medium">Damini Tomer</span>. I bridge the gap between complex 
-          mathematical models and scalable web architectures, specializing in 
-          <span className="text-[#BAA0F8] font-mono inline-block ml-1 underline underline-offset-4 decoration-[#BAA0F8]/30">
-             production-grade ML.
+          I'm <span className="text-white font-medium">Damini Tomer</span>, a motivated BCA student passionate about 
+          <span className="text-pink-300 font-mono inline-block ml-1 underline underline-offset-4 decoration-pink-300/30">
+             Machine Learning & Generative AI.
           </span>
+          <br className="hidden sm:block" /> I blend technical skills with practical problem-solving to create meaningful AI applications.
         </motion.p>
 
         {/* Magnetic Buttons */}
@@ -85,7 +85,7 @@ export default function Hero() {
             className="group relative w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-white text-black font-bold rounded-xl overflow-hidden text-sm sm:text-base"
           >
             <span className="relative z-10">Deploy Portfolio</span>
-            <motion.div className="absolute inset-0 bg-[#BAA0F8] translate-y-[100%] group-hover:translate-y-0 transition-transform duration-300" />
+            <motion.div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-purple-400 translate-y-[100%] group-hover:translate-y-0 transition-transform duration-300" />
           </motion.a>
 
           <motion.a

@@ -51,7 +51,7 @@ export default function Navbar() {
             {hoveredPath === item.name && (
               <motion.span
                 layoutId="nav-glow"
-                className="absolute inset-0 bg-[#BAA0F8]/20 rounded-full -z-10"
+                className="absolute inset-0 bg-gradient-to-r from-pink-400/30 to-purple-400/20 rounded-full -z-10"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
@@ -63,8 +63,8 @@ export default function Navbar() {
         <motion.a
           href="#contact"
           onClick={(e) => handleScroll(e, "#contact")}
-          whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(186,160,248,0.4)" }}
-          className="ml-4 px-5 py-2 bg-gradient-to-r from-[#BAA0F8] to-[#9d72f3] text-black text-xs font-bold uppercase tracking-tighter rounded-full cursor-pointer"
+          whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(255, 105, 180, 0.4)" }}
+          className="ml-4 px-5 py-2 bg-gradient-to-r from-pink-400 to-purple-400 text-white text-xs font-bold uppercase tracking-tighter rounded-full cursor-pointer"
         >
           Initialize Sync
         </motion.a>
@@ -73,7 +73,7 @@ export default function Navbar() {
       {/* Mobile/Tablet Navbar */}
       <div className="md:hidden w-full px-2">
         <div className="flex items-center justify-between px-3 sm:px-4 py-3 bg-black/60 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl">
-          <div className="text-white font-bold text-base sm:text-lg truncate">Kamlesh.AI</div>
+          <div className="text-white font-bold text-base sm:text-lg truncate">Damini.AI</div>
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-white p-2 hover:bg-white/10 rounded-lg transition flex-shrink-0"
@@ -106,7 +106,7 @@ export default function Navbar() {
                   href="#contact"
                   onClick={(e) => handleScroll(e, "#contact")}
                   whileHover={{ scale: 1.05 }}
-                  className="mt-2 px-3 sm:px-4 py-2 sm:py-3 bg-gradient-to-r from-[#BAA0F8] to-[#9d72f3] text-black text-xs font-bold uppercase tracking-tighter rounded-lg cursor-pointer text-center"
+                  className="mt-2 px-3 sm:px-4 py-2 sm:py-3 bg-gradient-to-r from-pink-400 to-purple-400 text-white text-xs font-bold uppercase tracking-tighter rounded-lg cursor-pointer text-center"
                 >
                   Initialize Sync
                 </motion.a>

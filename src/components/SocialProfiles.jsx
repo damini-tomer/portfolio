@@ -4,9 +4,9 @@ import { Github, Linkedin, Mail, Terminal, ExternalLink, Download, FileText } fr
 const socialLinks = [
   {
     name: "GitHub",
-    handle: "@Kamlesh-Kumar-ai",
+    handle: "@DaminiTomer",
     icon: <Github className="w-6 h-6" />,
-    link: "https://github.com/Kamlesh-Kumar-ai",
+    link: "https://github.com/Damini-Tomer",
     color: "hover:text-white",
     description: "Source code for LLM agents & ML pipelines."
   },
@@ -14,16 +14,16 @@ const socialLinks = [
     name: "LinkedIn",
     handle: "Damini Tomer",
     icon: <Linkedin className="w-6 h-6" />,
-    link: "https://www.linkedin.com/in/kamlesh-k-bb9705247",
+    link: "https://www.linkedin.com/in/damini-tomer-473aab31b",
     color: "hover:text-[#0077b5]",
     description: "Professional updates and industry networking."
   },
   {
     name: "Email",
-    handle: "kk919844@gmail.com",
+    handle: "daminitomer@23gmail.com",
     icon: <Mail className="w-6 h-6" />,
-    link: "mailto:kk919844@gmail.com",
-    color: "hover:text-[#BAA0F8]",
+    link: "mailto:daminitomer@23gmail.com",
+    color: "hover:text-pink-400",
     description: "Direct line for collaboration & inquiries."
   }
 ];
@@ -41,7 +41,7 @@ export default function SocialSection() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Establish <span className="text-[#BAA0F8]">Connection</span>
+              Let's <span className="bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">Connect</span>
             </h2>
             <p className="text-gray-400 text-lg mb-8 leading-relaxed">
               Based in <span className="text-white">Noida, India</span>. 
@@ -50,28 +50,28 @@ export default function SocialSection() {
             </p>
             
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
-              <div className="flex items-center gap-4 p-4 rounded-2xl bg-white/5 border border-white/10 w-fit">
-                <div className="p-3 bg-[#BAA0F8]/10 rounded-xl text-[#BAA0F8]">
+              <div className="flex items-center gap-4 p-4 rounded-2xl bg-gradient-to-r from-pink-400/10 to-purple-400/10 border border-pink-300/30 w-fit">
+                <div className="p-3 bg-pink-400/20 rounded-xl text-pink-400">
                   <Terminal size={24} />
                 </div>
                 <div>
                   <p className="text-xs font-mono text-gray-500 uppercase tracking-widest">Current Status</p>
-                  <p className="text-white font-medium text-sm">Available for AI/ML Opportunities</p>
+                  <p className="text-white font-medium text-sm">Available for Learning & Projects</p>
                 </div>
               </div>
 
               {/* ENHANCED RESUME DOWNLOAD BUTTON */}
               <motion.a
                 href="/resume.pdf"
-                download="Kamlesh_Kumar_AI_ML_Engineer.pdf"
+                download="Damin_Tomer_AI_ML_Engineer.pdf"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="group relative flex items-center gap-3 px-6 py-4 bg-white/[0.03] border border-[#BAA0F8]/30 rounded-2xl overflow-hidden transition-all duration-300 hover:border-[#BAA0F8] hover:bg-[#BAA0F8]/10"
+                className="group relative flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-pink-400/10 to-purple-400/10 border border-pink-400/40 rounded-2xl overflow-hidden transition-all duration-300 hover:border-pink-400/80 hover:bg-pink-400/20 hover:shadow-lg hover:shadow-pink-400/20"
               >
                 {/* Shimmer Effect */}
-                <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-[#BAA0F8]/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
+                <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-pink-400/15 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
                 
-                <div className="relative z-10 flex items-center gap-3 text-[#BAA0F8]">
+                <div className="relative z-10 flex items-center gap-3 text-pink-400">
                   <FileText size={20} className="group-hover:rotate-12 transition-transform" />
                   <div className="flex flex-col items-start">
                     <span className="text-[10px] font-mono uppercase tracking-tighter opacity-60">Technical_Resume</span>
@@ -95,14 +95,14 @@ export default function SocialSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
                 whileHover={{ x: 10 }}
-                className="group flex items-center justify-between p-6 rounded-2xl bg-[#111113] border border-white/5 hover:border-[#BAA0F8]/30 transition-all"
+                className="group flex items-center justify-between p-6 rounded-2xl bg-[#111113] border border-pink-300/20 hover:border-pink-400/50 transition-all"
               >
                 <div className="flex items-center gap-6">
                   <div className={`text-gray-400 transition-colors duration-300 ${social.color}`}>
                     {social.icon}
                   </div>
                   <div>
-                    <h3 className="text-white font-bold group-hover:text-[#BAA0F8] transition-colors">
+                    <h3 className="text-white font-bold group-hover:text-pink-400 transition-colors">
                       {social.name}
                     </h3>
                     <p className="text-sm text-gray-500 font-mono">{social.handle}</p>
@@ -116,7 +116,7 @@ export default function SocialSection() {
       </div>
 
       {/* Background Glow Effect */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[#BAA0F8]/5 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-gradient-to-br from-pink-400/5 to-purple-400/5 rounded-full blur-[120px] pointer-events-none" />
     </section>
   );
 }
